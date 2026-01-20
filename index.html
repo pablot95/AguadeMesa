@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socio Distribuidor - Agua de Mesa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Logo de la Marca" class="logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#proceso">Cómo Funciona</a></li>
+                    <li><a href="#contacto" class="btn btn-primary">Únete Ahora</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container hero-flex-container">
+            <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                <h1>¿Sos distribuidor de agua de mesa? Vende con nosotros</h1>
+                <p>¿Ya tienes una ruta o quieres empezar? Únete a la red de distribuidores con mayor crecimiento y obtén los mejores márgenes del mercado.</p>
+                <div class="hero-cta">
+                    <a href="#contacto" class="btn btn-secondary">Quiero ser Distribuidor <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                <img src="images/hero2.jpeg" alt="Distribuidor de agua">
+            </div>
+        </div>
+    </section>
+
+    <!-- Beneficios Section -->
+    <section id="beneficios" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">¿Por qué trabajar con nosotros?</h2>
+            <div class="cards-grid">
+                <div class="card" data-aos="flip-up" data-aos-delay="100">
+                    <i class="fas fa-chart-line card-icon"></i>
+                    <h3>Altos Márgenes de Ganancia</h3>
+                    <p>Ofrecemos precios competitivos de fábrica para que maximices tus ingresos en cada bidón vendido.</p>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-delay="200">
+                    <i class="fas fa-medal card-icon"></i>
+                    <h3>Calidad Premium</h3>
+                    <p>Agua purificada con los más altos estándares. Un producto que tus clientes amarán y volverán a pedir.</p>
+                </div>
+                <div class="card" data-aos="flip-up" data-aos-delay="300">
+                    <i class="fas fa-truck-loading card-icon"></i>
+                    <h3>Abastecimiento Confiable</h3>
+                    <p>Nunca te quedarás sin stock. Nuestra planta de producción garantiza un suministro constante y puntual.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Break Section -->
+    <section class="image-break">
+        <div class="container">
+            <div class="break-content">
+                <h2>Lleva calidad a cada hogar</h2>
+                <p>Nuestra tecnología de purificación garantiza la salud de tus clientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso Section -->
+    <section id="proceso" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Empieza en 3 Simples Pasos</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Regístrate</h3>
+                    <p>Llena el formulario de contacto con tus datos y zona de reparto.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Validación</h3>
+                    <p>Nuestro equipo te contactará para validar tu zona y ofrecerte nuestro plan de precios.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>¡Empieza a Ganar!</h3>
+                    <p>Recibe tu primer pedido y comienza a distribuir calidad con excelentes ganancias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto Section -->
+    <section id="contacto" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>¿Listo para empezar?</h2>
+                    <p>Déjanos tus datos y un asesor comercial se pondrá en contacto contigo a la brevedad.</p>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-phone-alt"></i> +51 987 654 321</li>
+                        <li><i class="fas fa-envelope"></i> distribuidores@tu-marca.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Planta Principal, Av. Industrial 123</li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono / WhatsApp</label>
+                            <input type="tel" id="telefono" name="telefono" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="zona">Zona de Reparto (Distrito/Ciudad)</label>
+                            <input type="text" id="zona" name="zona" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="vehiculo">¿Cuentas con vehículo propio?</label>
+                            <select id="vehiculo" name="vehiculo">
+                                <option value="si">Sí, tengo vehículo</option>
+                                <option value="no">No, estoy buscando alquilar</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-full">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Tu Marca de Agua. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
